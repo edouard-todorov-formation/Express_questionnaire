@@ -22,8 +22,8 @@ router.get("/check2", (req, res) => {
 });
 
 //route get "/bravo"
-router.get('/bravo', (_req, res) => {
-    res.send('BRAVO');
+router.get("/bravo", (_req, res) => {
+    res.send("BRAVO");
 });
 
 module.exports = router;
