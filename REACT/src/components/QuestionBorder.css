@@ -1,0 +1,22 @@
+/* fond de page = couleur de l'ombre */
+body {
+  background-color: #1e90ff;
+}
+
+.border {
+  max-width: 640px;
+  margin: 32px auto;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px #e9ecef;
+  border: 1px solid #e2e2e2;
+}
+
+.border button {
+  margin-right: 8px;
+}
+
+.border input {
+  margin-right: 8px;
+}
