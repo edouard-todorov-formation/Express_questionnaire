@@ -21,9 +21,4 @@ router.get("/check2", (req, res) => {
     res.json({ correct: userAnswer === correctAnswer2 });
 });
 
-//route get "/bravo"
-router.get("/bravo", (_req, res) => {
-    res.send("BRAVO");
-});
-
 module.exports = router;
